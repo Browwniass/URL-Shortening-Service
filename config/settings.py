@@ -175,8 +175,8 @@ CSRF_COOKIE_SECURE = False
 SPECTACULAR_SETTINGS = {
     # Use Django's standard `django.contrib.auth` permissions,
     # or allow read-only access for unauthenticated users.
-    'TITLE': 'To-Do list',
-        'DESCRIPTION': 'To-Do list',
+    'TITLE': 'URL Shortener',
+        'DESCRIPTION': 'URL Shortener',
     'VERSION': '1.0.0',
   
     'SERVE_PERMISSIONS': [
