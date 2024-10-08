@@ -1,7 +1,3 @@
-import random
-import string
-
-
 NUMBER_BASE = 62 
 
 
