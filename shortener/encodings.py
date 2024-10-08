@@ -14,5 +14,10 @@ def id_to_short_url(number):
     return result[::-1]
 
 
-def generate_short_url(id):
-    return id_to_short_url(id)
+def generate_short_url(id, encoding='base62'):
+    match encoding:
+        case 'base62':
+            return id_to_short_url(id)
+        case _:
+            raise ValueError(f'Error: Encoding {encoding} is not supported.')
+    
